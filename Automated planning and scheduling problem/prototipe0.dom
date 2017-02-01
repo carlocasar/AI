@@ -1,0 +1,42 @@
+
+(define (domain exercises)
+   (:requirements :strips :typing :adl)
+   (:types exercise order - object
+           date level - order
+   )
+   
+   (:predicates
+      (sucesor ?pre ?pos - order)
+      (achieved ?ex - exercise ?lvl - level)
+      (preparador ?pre ?ex - exercise)
+      (predecesor ?pre ?ex - exercise)
+      (current-day ?day - date)
+      (done-today ?ex - exercise ?lvl - level)
+      (just-done ?ex - exercise ?lvl - level)
+   )
+   
+   (:action do-exercise
+    :parameters (?ex - exercise ?lvl - level)
+    :precondition (and
+                   (sucesor ?lvlPre ?lvl)
+                   (achieved ?ex ?lvlPre)
+                   (not (and (predecesor ?pre ?ex) (not (just-done ?pre ?_))))
+                   (forall (preparador ?pre ?ex) (done-toda y ?pre ?_))
+                  )
+    :effect (and
+             (done-today ?ex ?lvl)
+             (not (just-done ?_)) (just-done ?_)
+            )
+   )
+   
+   (:action change-day
+    :parameters (?today ?tomorrow - day)
+    :precondition (and (current-day ?today) (sucesor ?today ?tomorrow))
+    :effect (and
+             (not (current-day ?today)) (current-day ?tomorrow)
+             (not (just-done ?ex ?lvl))
+             (forall (done-today ?ex ?lvl)
+              (and (achieved ?ex ?lvl) (not (done-today ?ex ?lvl))))
+            )
+   )
+)
