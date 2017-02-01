@@ -1,0 +1,769 @@
+; Fri May 13 13:46:40 CEST 2016
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([onto_Class10] of  Musculo
+
+	(Lo_usan_ejercicios
+		[onto_Class9]
+		[onto_Class18]
+		[onto_Class26]
+		[onto_Class27]
+		[onto_Class25]
+		[onto_Class24]
+		[onto_Class17]
+		[onto_Class10008]
+		[onto_Class20013]
+		[onto_Class20014]
+		[onto_Class20016]
+		[onto_Class20017]
+		[onto_Class20018]
+		[onto_Class20021]
+		[onto_Class20022]
+		[onto_Class20023]
+		[onto_Class20024]
+		[onto_Class20029]
+		[onto_Class20031]
+		[onto_Class20032]
+		[onto_Class20033]
+		[onto_Class20034])
+	(Nombre_musc "Brazos"))
+
+([onto_Class10008] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 10)
+	(Nombre_ej "Cardio")
+	(Objetivos_que_cumple
+		[onto_Class5]
+		[onto_Class10011]
+		[onto_Class6]
+		[onto_Class10009]
+		[onto_Class10010])
+	(Usa_musculos
+		[onto_Class10015]
+		[onto_Class10]
+		[onto_Class11]
+		[onto_Class13]))
+
+([onto_Class10009] of  Objetivo
+
+	(Ejercicios_que_lo_cumplen
+		[onto_Class15]
+		[onto_Class9]
+		[onto_Class16]
+		[onto_Class17]
+		[onto_Class10008]
+		[onto_Class20011]
+		[onto_Class20012]
+		[onto_Class20013]
+		[onto_Class20014]
+		[onto_Class20015]
+		[onto_Class20017]
+		[onto_Class20018]
+		[onto_Class20019]
+		[onto_Class20021]
+		[onto_Class20023]
+		[onto_Class20022]
+		[onto_Class20024]
+		[onto_Class20025]
+		[onto_Class22]
+		[onto_Class20029]
+		[onto_Class20031]
+		[onto_Class20032]
+		[onto_Class20033]
+		[onto_Class14]
+		[onto_Class20034])
+	(Nombre_obj "Mantenimiento"))
+
+([onto_Class10010] of  Objetivo
+
+	(Ejercicios_que_lo_cumplen
+		[onto_Class20]
+		[onto_Class19]
+		[onto_Class10008]
+		[onto_Class20020]
+		[onto_Class20021]
+		[onto_Class20023]
+		[onto_Class20022]
+		[onto_Class20024]
+		[onto_Class22]
+		[onto_Class20026]
+		[onto_Class20027]
+		[onto_Class20028]
+		[onto_Class20029]
+		[onto_Class20032])
+	(Nombre_obj "Flexibilidad"))
+
+([onto_Class10011] of  Objetivo
+
+	(Ejercicios_que_lo_cumplen
+		[onto_Class15]
+		[onto_Class17]
+		[onto_Class16]
+		[onto_Class10008]
+		[onto_Class20014]
+		[onto_Class20015]
+		[onto_Class20027]
+		[onto_Class20029]
+		[onto_Class20030]
+		[onto_Class20031]
+		[onto_Class20032]
+		[onto_Class20034])
+	(Nombre_obj "Equilibrio"))
+
+([onto_Class10013] of  Musculo
+
+	(Lo_usan_ejercicios
+		[onto_Class17]
+		[onto_Class20020])
+	(Nombre_musc "Cuello"))
+
+([onto_Class10015] of  Musculo
+
+	(Lo_usan_ejercicios
+		[onto_Class15]
+		[onto_Class17]
+		[onto_Class16]
+		[onto_Class10008]
+		[onto_Class20011]
+		[onto_Class20012]
+		[onto_Class20034])
+	(Nombre_musc "Corazon"))
+
+([onto_Class11] of  Musculo
+
+	(Lo_usan_ejercicios
+		[onto_Class20]
+		[onto_Class19]
+		[onto_Class15]
+		[onto_Class22]
+		[onto_Class17]
+		[onto_Class16]
+		[onto_Class10008]
+		[onto_Class20011]
+		[onto_Class20012]
+		[onto_Class20013]
+		[onto_Class20014]
+		[onto_Class20015]
+		[onto_Class20019]
+		[onto_Class20027]
+		[onto_Class20028]
+		[onto_Class20029]
+		[onto_Class20030]
+		[onto_Class20031]
+		[onto_Class20032]
+		[onto_Class20034]
+		[onto_Class20025])
+	(Nombre_musc "Piernas"))
+
+([onto_Class13] of  Musculo
+
+	(Lo_usan_ejercicios
+		[onto_Class14]
+		[onto_Class21]
+		[onto_Class23]
+		[onto_Class22]
+		[onto_Class17]
+		[onto_Class10008]
+		[onto_Class20017]
+		[onto_Class20024]
+		[onto_Class20029]
+		[onto_Class20031]
+		[onto_Class20033]
+		[onto_Class20034])
+	(Nombre_musc "Tronco"))
+
+([onto_Class14] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 20)
+	(Nombre_ej "Crunch")
+	(Objetivos_que_cumple
+		[onto_Class6]
+		[onto_Class10009]
+		[onto_Class7]
+		[onto_Class5])
+	(Usa_musculos [onto_Class13]))
+
+([onto_Class15] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 30)
+	(Nombre_ej "Carrera suave")
+	(Objetivos_que_cumple
+		[onto_Class5]
+		[onto_Class10011]
+		[onto_Class6]
+		[onto_Class10009])
+	(Usa_musculos
+		[onto_Class10015]
+		[onto_Class11]))
+
+([onto_Class16] of  Ejercicio
+
+	(Dificultad Mucha)
+	(Duracion 60)
+	(Nombre_ej "Maraton")
+	(Objetivos_que_cumple
+		[onto_Class5]
+		[onto_Class10011]
+		[onto_Class6]
+		[onto_Class10009])
+	(Usa_musculos
+		[onto_Class10015]
+		[onto_Class11]))
+
+([onto_Class17] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 30)
+	(Nombre_ej "Saltar a la comba")
+	(Objetivos_que_cumple
+		[onto_Class5]
+		[onto_Class10011]
+		[onto_Class6]
+		[onto_Class10009])
+	(Usa_aparato TRUE)
+	(Usa_musculos
+		[onto_Class10015]
+		[onto_Class10]
+		[onto_Class10013]
+		[onto_Class11]
+		[onto_Class13]))
+
+([onto_Class18] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Flexiones de biceps")
+	(Objetivos_que_cumple
+		[onto_Class6]
+		[onto_Class7])
+	(Usa_aparato TRUE)
+	(Usa_musculos [onto_Class10]))
+
+([onto_Class19] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Sentadillas")
+	(Objetivos_que_cumple
+		[onto_Class5]
+		[onto_Class6]
+		[onto_Class10010]
+		[onto_Class7])
+	(Usa_musculos [onto_Class11]))
+
+([onto_Class20] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 20)
+	(Nombre_ej "Puente isometrico")
+	(Objetivos_que_cumple
+		[onto_Class10010]
+		[onto_Class7])
+	(Usa_musculos [onto_Class11]))
+
+([onto_Class20011] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Bicicleta suave")
+	(Objetivos_que_cumple
+		[onto_Class5]
+		[onto_Class6]
+		[onto_Class10009])
+	(Usa_aparato TRUE)
+	(Usa_musculos
+		[onto_Class10015]
+		[onto_Class11]))
+
+([onto_Class20012] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 40)
+	(Nombre_ej "Bicicleta duro")
+	(Objetivos_que_cumple
+		[onto_Class5]
+		[onto_Class6]
+		[onto_Class10009])
+	(Usa_aparato TRUE)
+	(Usa_musculos
+		[onto_Class10015]
+		[onto_Class11]))
+
+([onto_Class20013] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Peso muerto con mancuernas")
+	(Objetivos_que_cumple
+		[onto_Class6]
+		[onto_Class10009]
+		[onto_Class7])
+	(Usa_aparato TRUE)
+	(Usa_musculos
+		[onto_Class10]
+		[onto_Class11]))
+
+([onto_Class20014] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Mountain climbers")
+	(Objetivos_que_cumple
+		[onto_Class5]
+		[onto_Class10011]
+		[onto_Class6]
+		[onto_Class10009])
+	(Usa_musculos
+		[onto_Class10]
+		[onto_Class11]))
+
+([onto_Class20015] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Elevaciones de rodilla")
+	(Objetivos_que_cumple
+		[onto_Class5]
+		[onto_Class10011]
+		[onto_Class6]
+		[onto_Class10009])
+	(Usa_musculos [onto_Class11]))
+
+([onto_Class20016] of  Ejercicio
+
+	(Dificultad Mucha)
+	(Duracion 20)
+	(Nombre_ej "Press de banca")
+	(Objetivos_que_cumple [onto_Class7])
+	(Usa_aparato TRUE)
+	(Usa_musculos [onto_Class10]))
+
+([onto_Class20017] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 20)
+	(Nombre_ej "Pectoral contractor")
+	(Objetivos_que_cumple
+		[onto_Class6]
+		[onto_Class10009]
+		[onto_Class7])
+	(Usa_aparato TRUE)
+	(Usa_musculos
+		[onto_Class10]
+		[onto_Class13]))
+
+([onto_Class20018] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 20)
+	(Nombre_ej "Press sentado anterior")
+	(Objetivos_que_cumple
+		[onto_Class6]
+		[onto_Class10009]
+		[onto_Class7])
+	(Usa_aparato TRUE)
+	(Usa_musculos [onto_Class10]))
+
+([onto_Class20019] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 20)
+	(Nombre_ej "Extension de piernas")
+	(Objetivos_que_cumple
+		[onto_Class6]
+		[onto_Class10009]
+		[onto_Class7])
+	(Usa_aparato TRUE)
+	(Usa_musculos [onto_Class11]))
+
+([onto_Class20020] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 15)
+	(Nombre_ej "Traccion cervical")
+	(Objetivos_que_cumple [onto_Class10010])
+	(Usa_aparato TRUE)
+	(Usa_musculos [onto_Class10013]))
+
+([onto_Class20021] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 20)
+	(Nombre_ej "Presion de palmas detras de la espalda")
+	(Objetivos_que_cumple
+		[onto_Class10009]
+		[onto_Class10010])
+	(Usa_musculos [onto_Class10]))
+
+([onto_Class20022] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Rotacion interna de antebrazo")
+	(Objetivos_que_cumple
+		[onto_Class6]
+		[onto_Class10009]
+		[onto_Class10010]
+		[onto_Class7])
+	(Usa_aparato TRUE)
+	(Usa_musculos [onto_Class10]))
+
+([onto_Class20023] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 20)
+	(Nombre_ej "Rotacion externa de antebrazo")
+	(Objetivos_que_cumple
+		[onto_Class6]
+		[onto_Class10009]
+		[onto_Class10010]
+		[onto_Class7])
+	(Usa_aparato TRUE)
+	(Usa_musculos [onto_Class10]))
+
+([onto_Class20024] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 20)
+	(Nombre_ej "Expnsion de pecho")
+	(Objetivos_que_cumple
+		[onto_Class6]
+		[onto_Class10009]
+		[onto_Class10010]
+		[onto_Class7])
+	(Usa_aparato FALSE)
+	(Usa_musculos
+		[onto_Class10]
+		[onto_Class13]))
+
+([onto_Class20025] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Tijera lateral")
+	(Objetivos_que_cumple
+		[onto_Class10009]
+		[onto_Class6]
+		[onto_Class7])
+	(Usa_musculos [onto_Class11]))
+
+([onto_Class20026] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Estiramiento de espalda")
+	(Objetivos_que_cumple [onto_Class10010]))
+
+([onto_Class20027] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 30)
+	(Nombre_ej "Flor de loto")
+	(Objetivos_que_cumple
+		[onto_Class10011]
+		[onto_Class10010])
+	(Usa_musculos [onto_Class11]))
+
+([onto_Class20028] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Estiramiento de cuadriceps de pie")
+	(Objetivos_que_cumple [onto_Class10010])
+	(Usa_musculos [onto_Class11]))
+
+([onto_Class20029] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Desplazamiento de peso")
+	(Objetivos_que_cumple
+		[onto_Class6]
+		[onto_Class7]
+		[onto_Class10010]
+		[onto_Class10011]
+		[onto_Class10009]
+		[onto_Class5])
+	(Usa_musculos
+		[onto_Class10]
+		[onto_Class11]
+		[onto_Class13]))
+
+([onto_Class20030] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Equilibrio sencillo en una pierna")
+	(Objetivos_que_cumple [onto_Class10011])
+	(Usa_musculos [onto_Class11]))
+
+([onto_Class20031] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Bote de balon medicinal")
+	(Objetivos_que_cumple
+		[onto_Class7]
+		[onto_Class10009]
+		[onto_Class10011])
+	(Usa_aparato TRUE)
+	(Usa_musculos
+		[onto_Class10]
+		[onto_Class11]
+		[onto_Class13]))
+
+([onto_Class20032] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 20)
+	(Nombre_ej "Sentadillas con balon medicinal")
+	(Objetivos_que_cumple
+		[onto_Class5]
+		[onto_Class10011]
+		[onto_Class10009]
+		[onto_Class6]
+		[onto_Class7]
+		[onto_Class10010])
+	(Usa_aparato TRUE)
+	(Usa_musculos
+		[onto_Class10]
+		[onto_Class11]))
+
+([onto_Class20033] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 20)
+	(Nombre_ej "Abdominales con balon medicinal")
+	(Objetivos_que_cumple
+		[onto_Class7]
+		[onto_Class5]
+		[onto_Class6]
+		[onto_Class10009])
+	(Usa_aparato TRUE)
+	(Usa_musculos
+		[onto_Class13]
+		[onto_Class10]))
+
+([onto_Class20034] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 20)
+	(Nombre_ej "Pista de obstaculos")
+	(Objetivos_que_cumple
+		[onto_Class6]
+		[onto_Class5]
+		[onto_Class10011]
+		[onto_Class10009])
+	(Usa_aparato TRUE)
+	(Usa_musculos
+		[onto_Class10]
+		[onto_Class10015]
+		[onto_Class11]
+		[onto_Class13]))
+
+([onto_Class20035] of  Habito
+
+	(Nombre_hab "Ir y volver andando al trabajo/escuela"))
+
+([onto_Class20036] of  Habito
+
+	(Nombre_hab "Pasear a algun animal domestico"))
+
+([onto_Class20037] of  Habito
+
+	(Nombre_hab "Limpiar la casa"))
+
+([onto_Class20038] of  Habito
+
+	(Nombre_hab "Hacer la colada"))
+
+([onto_Class20039] of  Habito
+
+	(Nombre_hab "Paseo"))
+
+([onto_Class20040] of  Habito
+
+	(Nombre_hab "Hacer la compra"))
+
+([onto_Class20041] of  Dieta
+
+	(Nombre_die "Exceso de sal"))
+
+([onto_Class20042] of  Dieta
+
+	(Nombre_die "Exceso de azucar"))
+
+([onto_Class20043] of  Dieta
+
+	(Nombre_die "Demasiadas calorias"))
+
+([onto_Class20044] of  Dieta
+
+	(Nombre_die "Poca fruta y verduras"))
+
+([onto_Class20045] of  Dieta
+
+	(Nombre_die "Picar entre horas"))
+
+([onto_Class20046] of  Dieta
+
+	(Nombre_die "Demasiada comida basura"))
+
+([onto_Class21] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 10)
+	(Nombre_ej "Elevacion de piernas al pecho")
+	(Objetivos_que_cumple [onto_Class7])
+	(Usa_musculos [onto_Class13]))
+
+([onto_Class22] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Tijera vertical")
+	(Objetivos_que_cumple
+		[onto_Class6]
+		[onto_Class10009]
+		[onto_Class10010]
+		[onto_Class7])
+	(Usa_musculos
+		[onto_Class11]
+		[onto_Class13]))
+
+([onto_Class23] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 20)
+	(Nombre_ej "Twist ruso")
+	(Objetivos_que_cumple [onto_Class7])
+	(Usa_aparato TRUE)
+	(Usa_musculos [onto_Class13]))
+
+([onto_Class24] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 20)
+	(Nombre_ej "Fondos")
+	(Objetivos_que_cumple [onto_Class7])
+	(Usa_musculos [onto_Class10]))
+
+([onto_Class25] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Jalones en polea")
+	(Objetivos_que_cumple [onto_Class7])
+	(Usa_aparato TRUE)
+	(Usa_musculos [onto_Class10]))
+
+([onto_Class26] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Flexiones de muñeca")
+	(Objetivos_que_cumple [onto_Class7])
+	(Usa_aparato TRUE)
+	(Usa_musculos [onto_Class10]))
+
+([onto_Class27] of  Ejercicio
+
+	(Dificultad Poca)
+	(Duracion 20)
+	(Nombre_ej "Patada de burro")
+	(Objetivos_que_cumple [onto_Class7])
+	(Usa_musculos [onto_Class10]))
+
+([onto_Class5] of  Objetivo
+
+	(Ejercicios_que_lo_cumplen
+		[onto_Class15]
+		[onto_Class16]
+		[onto_Class19]
+		[onto_Class17]
+		[onto_Class10008]
+		[onto_Class20011]
+		[onto_Class20012]
+		[onto_Class20014]
+		[onto_Class20015]
+		[onto_Class20029]
+		[onto_Class20032]
+		[onto_Class20033]
+		[onto_Class14]
+		[onto_Class20034])
+	(Nombre_obj "Bajar peso"))
+
+([onto_Class6] of  Objetivo
+
+	(Ejercicios_que_lo_cumplen
+		[onto_Class15]
+		[onto_Class9]
+		[onto_Class16]
+		[onto_Class17]
+		[onto_Class19]
+		[onto_Class18]
+		[onto_Class10008]
+		[onto_Class20011]
+		[onto_Class20012]
+		[onto_Class20013]
+		[onto_Class20014]
+		[onto_Class20015]
+		[onto_Class20017]
+		[onto_Class20018]
+		[onto_Class20019]
+		[onto_Class20023]
+		[onto_Class20022]
+		[onto_Class20024]
+		[onto_Class20025]
+		[onto_Class22]
+		[onto_Class20029]
+		[onto_Class20032]
+		[onto_Class20033]
+		[onto_Class14]
+		[onto_Class20034])
+	(Nombre_obj "Ponerse en forma"))
+
+([onto_Class7] of  Objetivo
+
+	(Ejercicios_que_lo_cumplen
+		[onto_Class25]
+		[onto_Class21]
+		[onto_Class9]
+		[onto_Class26]
+		[onto_Class27]
+		[onto_Class20]
+		[onto_Class19]
+		[onto_Class23]
+		[onto_Class18]
+		[onto_Class20013]
+		[onto_Class20016]
+		[onto_Class20017]
+		[onto_Class20018]
+		[onto_Class20019]
+		[onto_Class20023]
+		[onto_Class20022]
+		[onto_Class20024]
+		[onto_Class20025]
+		[onto_Class22]
+		[onto_Class20029]
+		[onto_Class20031]
+		[onto_Class20032]
+		[onto_Class20033]
+		[onto_Class14])
+	(Nombre_obj "Muscular"))
+
+([onto_Class9] of  Ejercicio
+
+	(Dificultad Media)
+	(Duracion 10)
+	(Nombre_ej "Flexiones")
+	(Objetivos_que_cumple
+		[onto_Class6]
+		[onto_Class10009]
+		[onto_Class7])
+	(Usa_musculos [onto_Class10]))

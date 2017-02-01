@@ -1,0 +1,220 @@
+
+salida por pantalla: 
+
+===========================================================
+=         Sistema de recomendacion de ejercicios          =
+===========================================================
+
+Bienvenido, elija las respuestas que crea adecuadas a las siguientes preguntas.
+
+Como se llama?  Ernesto
+Es hombre o mujer? [hombre][mujer]: hombre
+Que edad tiene?  [1, 110] 35
+Indica tu altura (cm) [1, 250] 172
+Indica tu peso (kg) [1, 200] 90
+Indica tu tiempo libre diario (min) [30, 180] 60
+Responde a estas preguntas tras haber realizado unos pequeños ejercicios
+Indica tus pulsaciones por minuto [60, 220] 120
+Indica tu presion sanguinea (sistolica) [80, 200] 100
+Escoja cuales de estos habitos relacionados con la dieta realiza: 
+  1. Exceso de sal
+  2. Exceso de azucar
+  3. Demasiadas calorias
+  4. Poca fruta y verduras
+  5. Picar entre horas
+  6. Demasiada comida basura
+Indica los números separados por un espacio: 2
+Escoja cuales de estas opciones se adapta a lo que tiene como objetivo mejorar o cumplir: 
+  1. Mantenimiento
+  2. Flexibilidad
+  3. Equilibrio
+  4. Bajar peso
+  5. Ponerse en forma
+  6. Muscular
+Indica los números separados por un espacio: 4 5 
+Escoja cuales de estos habitos realiza usualmente (es decir, les dedica al menos 30 minutos semanales): 
+  1. Ir y volver andando al trabajo/escuela
+  2. Pasear a algun animal domestico
+  3. Limpiar la casa
+  4. Hacer la colada
+  5. Paseo
+  6. Hacer la compra
+Indica los números separados por un espacio: 5
+Especifique cuanto tiempo dedica semanalmente a cada uno de los habitos (min):
+Paseo [30, 300] 60
+Preferiria usar maquinas y aparatos para hacer sus ejercicios?  [si][no]: si
+Tiene alguna lesion?  [si][no]: no
+Procesando datos...
+Generando respuesta...
+
+Ernesto, este es nuestro horario recomendado para usted. ¡Esperamos que lo disfrute!
+============================================
+[Dia1]
+-----------------------------------
+Nombre ejercicio: Rotacion externa de antebrazo 
+
+Duración: 20
+
+Nivel de recomendación: 275 
+Justificación: 
+Cumple el objetivo Ponerse en forma -> +150
+Tiene dificultad menor a la recomendada Media -> +75
+Concuerda con las preferencias del usuario con respecto al uso de maquinas y aparatos -> +50
+
+-----------------------------------
+-----------------------------------
+Nombre ejercicio: Elevaciones de rodilla 
+
+Duración: 20
+
+Nivel de recomendación: 375 
+Justificación: 
+Cumple el objetivo Ponerse en forma -> +150
+Tiene dificultad menor a la recomendada Poca -> +75
+Cumple el objetivo Bajar peso -> +150
+
+-----------------------------------
+============================================
+============================================
+[Dia2]
+-----------------------------------
+Nombre ejercicio: Mountain climbers 
+
+Duración: 20
+
+Nivel de recomendación: 375 
+Justificación: 
+Cumple el objetivo Ponerse en forma -> +150
+Tiene dificultad menor a la recomendada Poca -> +75
+Cumple el objetivo Bajar peso -> +150
+
+-----------------------------------
+-----------------------------------
+Nombre ejercicio: Sentadillas con balon medicinal 
+
+Duración: 20
+
+Nivel de recomendación: 425 
+Justificación: 
+Cumple el objetivo Ponerse en forma -> +150
+Tiene dificultad menor a la recomendada Media -> +75
+Concuerda con las preferencias del usuario con respecto al uso de maquinas y aparatos -> +50
+Cumple el objetivo Bajar peso -> +150
+
+-----------------------------------
+============================================
+============================================
+[Dia3]
+-----------------------------------
+Nombre ejercicio: Extension de piernas 
+
+Duración: 20
+
+Nivel de recomendación: 275 
+Justificación: 
+Cumple el objetivo Ponerse en forma -> +150
+Tiene dificultad menor a la recomendada Media -> +75
+Concuerda con las preferencias del usuario con respecto al uso de maquinas y aparatos -> +50
+
+-----------------------------------
+-----------------------------------
+Nombre ejercicio: Carrera suave 
+
+Duración: 30
+
+Nivel de recomendación: 375 
+Justificación: 
+Cumple el objetivo Ponerse en forma -> +150
+Tiene dificultad menor a la recomendada Poca -> +75
+Cumple el objetivo Bajar peso -> +150
+
+-----------------------------------
+============================================
+============================================
+[Dia4]
+-----------------------------------
+Nombre ejercicio: Cardio 
+
+Duración: 10
+
+Nivel de recomendación: 375 
+Justificación: 
+Cumple el objetivo Ponerse en forma -> +150
+Tiene dificultad menor a la recomendada Poca -> +75
+Cumple el objetivo Bajar peso -> +150
+
+-----------------------------------
+-----------------------------------
+Nombre ejercicio: Rotacion interna de antebrazo 
+
+Duración: 20
+
+Nivel de recomendación: 275 
+Justificación: 
+Cumple el objetivo Ponerse en forma -> +150
+Tiene dificultad menor a la recomendada Poca -> +75
+Concuerda con las preferencias del usuario con respecto al uso de maquinas y aparatos -> +50
+
+-----------------------------------
+-----------------------------------
+Nombre ejercicio: Flexiones de biceps 
+
+Duración: 20
+
+Nivel de recomendación: 275 
+Justificación: 
+Cumple el objetivo Ponerse en forma -> +150
+Tiene dificultad menor a la recomendada Poca -> +75
+Concuerda con las preferencias del usuario con respecto al uso de maquinas y aparatos -> +50
+
+-----------------------------------
+============================================
+============================================
+[Dia5]
+-----------------------------------
+Nombre ejercicio: Saltar a la comba 
+
+Duración: 30
+
+Nivel de recomendación: 425 
+Justificación: 
+Cumple el objetivo Ponerse en forma -> +150
+Tiene dificultad menor a la recomendada Media -> +75
+Concuerda con las preferencias del usuario con respecto al uso de maquinas y aparatos -> +50
+Cumple el objetivo Bajar peso -> +150
+
+-----------------------------------
+-----------------------------------
+Nombre ejercicio: Crunch 
+
+Duración: 20
+
+Nivel de recomendación: 375 
+Justificación: 
+Cumple el objetivo Ponerse en forma -> +150
+Tiene dificultad menor a la recomendada Media -> +75
+Cumple el objetivo Bajar peso -> +150
+
+-----------------------------------
+============================================
+
+
+respuestas solo:
+
+
+Ernesto 
+hombre 
+35
+172
+90
+60
+120
+100
+2
+4 5
+5
+60
+si
+no
+
+

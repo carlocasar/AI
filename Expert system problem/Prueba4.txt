@@ -1,0 +1,79 @@
+===========================================================
+=         Sistema de recomendacion de ejercicios          =
+===========================================================
+
+Bienvenido, elija las respuestas que crea adecuadas a las siguientes preguntas.
+
+Como se llama?  Belen
+Es hombre o mujer? [hombre][mujer]: mujer
+Que edad tiene?  [1, 110] 19
+Indica tu altura (cm) [1, 250] 162
+Indica tu peso (kg) [1, 200] 62
+Indica tu tiempo libre diario (min) [30, 180] 60
+Responde a estas preguntas tras haber realizado unos pequeños ejercicios
+Indica tus pulsaciones por minuto [60, 220] 104
+Indica tu presion sanguinea (sistolica) [80, 200] 114
+Escoja cuales de estos habitos relacionados con la dieta realiza: 
+  1. Exceso de sal
+  2. Exceso de azucar
+  3. Demasiadas calorias
+  4. Poca fruta y verduras
+  5. Picar entre horas
+  6. Demasiada comida basura
+Indica los números separados por un espacio: 5
+Escoja cuales de estas opciones se adapta a lo que tiene como objetivo mejorar o cumplir: 
+  1. Mantenimiento
+  2. Flexibilidad
+  3. Equilibrio
+  4. Bajar peso
+  5. Ponerse en forma
+  6. Muscular
+Indica los números separados por un espacio: 1 2 3 4 5 6
+Escoja cuales de estos habitos realiza usualmente (es decir, les dedica al menos 30 minutos semanales): 
+  1. Ir y volver andando al trabajo/escuela
+  2. Pasear a algun animal domestico
+  3. Limpiar la casa
+  4. Hacer la colada
+  5. Paseo
+  6. Hacer la compra
+Indica los números separados por un espacio: 
+Especifique cuanto tiempo dedica semanalmente a cada uno de los habitos (min):
+Preferiria usar maquinas y aparatos para hacer sus ejercicios?  [si][no]: si 
+Tiene alguna lesion?  [si][no]: si
+Escoja si tiene algun problema en alguno de estos musculos: 
+  1. Brazos
+  2. Cuello
+  3. Corazon
+  4. Piernas
+  5. Tronco
+Indica los números separados por un espacio: 1 2 3 4 5
+Procesando datos...
+Generando respuesta...
+
+Belen, este es nuestro horario recomendado para usted. ¡Esperamos que lo disfrute!
+============================================
+[Dia1]
+-----------------------------------
+Nombre ejercicio: Estiramiento de espalda 
+
+Duración: 20
+
+Nivel de recomendación: 225 
+Justificación: 
+Cumple el objetivo Flexibilidad -> +150
+Tiene dificultad menor a la recomendada Poca -> +75
+
+-----------------------------------
+============================================
+============================================
+[Dia2]
+============================================
+============================================
+[Dia3]
+============================================
+============================================
+[Dia4]
+============================================
+============================================
+[Dia5]
+============================================

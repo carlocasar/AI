@@ -1,0 +1,125 @@
+===========================================================
+=         Sistema de recomendacion de ejercicios          =
+===========================================================
+
+Bienvenido, elija las respuestas que crea adecuadas a las siguientes preguntas.
+
+Como se llama?  Marta
+Es hombre o mujer? [hombre][mujer]: mujer
+Que edad tiene?  [1, 110] 23
+Indica tu altura (cm) [1, 250] 180
+Indica tu peso (kg) [1, 200] 65
+Indica tu tiempo libre diario (min) [30, 180] 30
+Responde a estas preguntas tras haber realizado unos pequeños ejercicios
+Indica tus pulsaciones por minuto [60, 220] 80
+Indica tu presion sanguinea (sistolica) [80, 200] 100
+Escoja cuales de estos habitos relacionados con la dieta realiza: 
+  1. Exceso de sal
+  2. Exceso de azucar
+  3. Demasiadas calorias
+  4. Poca fruta y verduras
+  5. Picar entre horas
+  6. Demasiada comida basura
+Indica los números separados por un espacio: 
+Escoja cuales de estas opciones se adapta a lo que tiene como objetivo mejorar o cumplir: 
+  1. Mantenimiento
+  2. Flexibilidad
+  3. Equilibrio
+  4. Bajar peso
+  5. Ponerse en forma
+  6. Muscular
+Indica los números separados por un espacio: 6
+Escoja cuales de estos habitos realiza usualmente (es decir, les dedica al menos 30 minutos semanales): 
+  1. Ir y volver andando al trabajo/escuela
+  2. Pasear a algun animal domestico
+  3. Limpiar la casa
+  4. Hacer la colada
+  5. Paseo
+  6. Hacer la compra
+Indica los números separados por un espacio: 2
+Especifique cuanto tiempo dedica semanalmente a cada uno de los habitos (min):
+Pasear a algun animal domestico [30, 300] 30
+Preferiria usar maquinas y aparatos para hacer sus ejercicios?  [si][no]: si
+Tiene alguna lesion?  [si][no]: si
+Escoja si tiene algun problema en alguno de estos musculos: 
+  1. Brazos
+  2. Cuello
+  3. Corazon
+  4. Piernas
+  5. Tronco
+Indica los números separados por un espacio: 5
+Procesando datos...
+Generando respuesta...
+
+Marta, este es nuestro horario recomendado para usted. ¡Esperamos que lo disfrute!
+============================================
+[Dia1]
+-----------------------------------
+Nombre ejercicio: Sentadillas 
+
+Duración: 20
+
+Nivel de recomendación: 225 
+Justificación: 
+Cumple el objetivo Muscular -> +150
+Tiene dificultad menor a la recomendada Poca -> +75
+
+-----------------------------------
+============================================
+============================================
+[Dia2]
+-----------------------------------
+Nombre ejercicio: Traccion cervical 
+
+Duración: 15
+
+Nivel de recomendación: 125 
+Justificación: 
+Tiene dificultad menor a la recomendada Poca -> +75
+Concuerda con las preferencias del usuario con respecto al uso de maquinas y aparatos -> +50
+
+-----------------------------------
+============================================
+============================================
+[Dia3]
+-----------------------------------
+Nombre ejercicio: Tijera lateral 
+
+Duración: 20
+
+Nivel de recomendación: 225 
+Justificación: 
+Cumple el objetivo Muscular -> +150
+Tiene dificultad menor a la recomendada Poca -> +75
+
+-----------------------------------
+============================================
+============================================
+[Dia4]
+-----------------------------------
+Nombre ejercicio: Puente isometrico 
+
+Duración: 20
+
+Nivel de recomendación: 225 
+Justificación: 
+Cumple el objetivo Muscular -> +150
+Tiene dificultad menor a la recomendada Media -> +75
+
+-----------------------------------
+============================================
+============================================
+[Dia5]
+-----------------------------------
+Nombre ejercicio: Rotacion externa de antebrazo 
+
+Duración: 20
+
+Nivel de recomendación: 275 
+Justificación: 
+Cumple el objetivo Muscular -> +150
+Tiene dificultad menor a la recomendada Media -> +75
+Concuerda con las preferencias del usuario con respecto al uso de maquinas y aparatos -> +50
+
+-----------------------------------
+============================================
