@@ -1,10 +1,10 @@
-﻿Para ejecutar el proyecto, usar en cmd el siguiente comando:
+To execute the project use the following command:
 
 java -jar DistributedFS.jar
 
-En la lista de experimentos, elegir el experimento que se quiera. 
-El experimento especial (0) equivale al experimento 9 del enunciado.
+The problem consists of users and servers. 
+We have to manage wich server will provide the files to the users (more in documentacion.pdf).
+The code is in the DistributedFS folder.
 
-Cuando termine de ejecutar el experimento seleccionado, 
-el programa se cerrará y en una carpeta "\data" en el directorio donde está el .jar 
-se habrá creado un archivo de texto con los resultados del experimento.
+When the experiment is finished, the program will close and will create a folder called "\data that 
+contains a text file with the result of the experiment.
